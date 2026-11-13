@@ -18,30 +18,33 @@ carpentry: 'incubator'
 # carpentry_description: "Custom Carpentry"
 
 # Overall title for pages.
-title: 'Lesson Title' # FIXME
+title: 'Datakwaliteitsrichtlijnen van de Rijksdienst voor het Cultureel Erfgoed'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: ~ # FIXME
+created: 2026-11-13
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries' # FIXME
+keywords: 'datakwaliteit, data, lesson, The Carpentries, Carpentries, RCE, Rijksdienst, Rijksdienst voor het Cultureel Erfgoed'
 
 # Life cycle stage of the lesson
 # refer to <https://docs.carpentries.org/resources/curriculum/lesson-life-cycle.html> for details
 # possible values: pre-alpha, alpha, beta, stable, retired
-life_cycle: 'pre-alpha' # FIXME
+life_cycle: 'pre-alpha'
 
 # License of the lesson
-license: 'CC-BY 4.0'
+license: 'CC-BY-NC 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/Digitaal-Erfgoed-Trainingen/datakwaliteitrichtlijnen_RCE'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org' # FIXME
+contact: 'm.dekleijn@cultureelerfgoed.nl'
+
+# Language
+lang: 'nl'
 
 # Navigation ------------------------------------------------
 #
@@ -66,8 +69,11 @@ contact: 'team@carpentries.org' # FIXME
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
-- introduction.md
+episodes:
+- 01_Intro.md
+- 02_datakwaliteit_niet_ruimtelijke_data.md
+- 03_datakwaliteit_ruimtelijke_data.md
+- 04_data_dictionary.md
 
 # Information for Learners
 learners: 
